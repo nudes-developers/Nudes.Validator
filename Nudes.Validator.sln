@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.30517.126
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Nudes.Validator.MediatRBehavior", "src\Nudes.Validator.MediatRBehavior\Nudes.Validator.MediatRBehavior.csproj", "{9B0BB352-B173-4E22-BAB4-CE52DD80632A}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Nudes.Validator.Blazor", "src\Nudes.Validator.Blazor\Nudes.Validator.Blazor.csproj", "{97508C5B-C2AE-4FA7-AE73-F7B1A43FFFE6}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{9B0BB352-B173-4E22-BAB4-CE52DD80632A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9B0BB352-B173-4E22-BAB4-CE52DD80632A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9B0BB352-B173-4E22-BAB4-CE52DD80632A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9B0BB352-B173-4E22-BAB4-CE52DD80632A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{97508C5B-C2AE-4FA7-AE73-F7B1A43FFFE6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{97508C5B-C2AE-4FA7-AE73-F7B1A43FFFE6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{97508C5B-C2AE-4FA7-AE73-F7B1A43FFFE6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{97508C5B-C2AE-4FA7-AE73-F7B1A43FFFE6}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {226BD7EB-391D-4E37-9A58-1F1D1B3A4DBA}
+	EndGlobalSection
+EndGlobal
