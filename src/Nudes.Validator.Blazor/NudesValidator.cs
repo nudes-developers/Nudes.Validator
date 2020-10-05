@@ -34,6 +34,7 @@ namespace Nudes.Validator.Blazor
 
         public void DisplayError(Error error)
         {
+            messageStore.Clear();
             if (error != null)
             {
                 if (error.FieldErrors?.Any() == true)
