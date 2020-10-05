@@ -2,6 +2,7 @@
 using Microsoft.AspNetCore.Components.Forms;
 using Nudes.Retornator.Core;
 using System;
+using System.Linq;
 
 namespace Nudes.Validator.Blazor
 {
@@ -33,9 +34,13 @@ namespace Nudes.Validator.Blazor
 
         public void DisplayError(Error error)
         {
-            foreach (var err in error.FieldErrors)
+            if (error != null)
             {
-                messageStore.Add(CurrentEditContext.Field(err.Key), err.Value);
+                if (error.FieldErrors?.Any() == true)
+                {
+                    foreach (var err in error.FieldErrors)
+                        messageStore.Add(CurrentEditContext.Field(err.Key), err.Value);
+                }
             }
 
             CurrentEditContext.NotifyValidationStateChanged();
